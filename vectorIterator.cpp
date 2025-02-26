@@ -38,19 +38,19 @@ int main(){
 
     cout<<endl;
     for(auto i5=v.rbegin();i5!=v.rend();i5++){
-        cout<<*i5<<" ";//7 8 6 5 4 5 1 
+        cout<<*i5<<" ";//1 5 4 5 6 8 7
     }
     cout<<endl;
 
     cout<<endl;
     for(int k:v){
-        cout<<k<<" ";
+        cout<<k<<" ";//7 8 6 5 4 5 1 
     }
     cout<<endl;
 
     cout<<endl;
     for(auto k:v){
-        cout<<k<<" ";
+        cout<<k<<" ";//7 8 6 5 4 5 1 
     }
     cout<<endl;
 
